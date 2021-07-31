@@ -6,3 +6,8 @@ EGandKT - these files implement either a single AR Envelope Generator or a Key T
 M3_1.6.1a - these files implement, in a single version support for AR envelope, Key Tracking and LFO redirect all in one oscillator. These oscillators are based on Peter's 1.6.1 code, and thus correct waveform indexing for the six wavetable oscillators.
 
 M3fast - these files implement the same functionality as M3_1.6.1a, however the attack period has been reduced by 1/5th for faster plucky envelopes, plus there is a small amount of Key Tracking with attack timing; faster envelopes with higher notes. 
+
+----
+I'm using Yorich Tech's Low Freqeuncy Expander to demo some modulation scheme's. with it, I've been able to create time varying modulations of the Shape and Shift-Shape model inputs, while using the builtin single-input modulation options of M3 to m odulate the 3rd or 4th variable.
+
+This allows me to explore the most interesting 2-4 input modulation ideas. You can get so many detailed tonalities with these models in more than 1 dimension. Looking forward to committing these ideas to code.
